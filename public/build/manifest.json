@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-RRgaC1FQ.css",
+    "file": "assets/app-D76fIBn8.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -15,6 +15,10 @@
   "resources/fonts/Custom.woff2": {
     "file": "assets/Custom-C6Ahks36.woff2",
     "src": "resources/fonts/Custom.woff2"
+  },
+  "resources/fonts/Manrope/Manrope-VariableFont_wght.ttf": {
+    "file": "assets/Manrope-VariableFont_wght-0N3pECc_.ttf",
+    "src": "resources/fonts/Manrope/Manrope-VariableFont_wght.ttf"
   },
   "resources/fonts/Unicons.woff": {
     "file": "assets/Unicons-BhE4mAtn.woff",
