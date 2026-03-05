@@ -3,7 +3,7 @@
         <div class="container flex items-center justify-between">
             <div class="navbar-brand"><a href="/"> <img class="logo-dark" src="{{ asset('images/logo.png') }}"
                                                         srcset="{{ asset('images/logo.png') }}" alt="image"> <img
-                        class="logo-light" src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo.png') }}"
+                        class="logo-light" src="{{ asset('images/logo-dark.png') }}" srcset="{{ asset('images/logo-dark.png') }} 3x"
                         alt="image"> </a></div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                 <div class="offcanvas-header xl:!hidden lg:!hidden flex items-center justify-between flex-row p-6"><h3

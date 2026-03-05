@@ -1,30 +1,22 @@
-<footer class=" bg-[#21262c] opacity-100  !text-[#cacaca]">
+<footer class=" bg-[#000] opacity-100  !text-[#cacaca]">
     <div class="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
         <div class="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
             <div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full max-lg:!mt-[30px]">
                 <div class="widget">
-                    <img class="!mb-4" src="images/logo-light.png" srcset="images/logo-light%402x.png 2x" alt="image">
-                    <p class="!mb-4">© 2024 Sandbox. All rights reserved.</p>
-                    <nav class="nav social social-white">
-                        <a class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-twitter before:content-['\ed59'] text-[1rem] !text-[#5daed5]"></i></a>
-                        <a class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-facebook-f before:content-['\eae2'] text-[1rem] !text-[#4470cf]"></i></a>
-                        <a class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-dribbble before:content-['\eaa2'] text-[1rem] !text-[#e94d88]"></i></a>
-                        <a class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-instagram before:content-['\eb9c'] text-[1rem] !text-[#d53581]"></i></a>
-                        <a class="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]" href="#"><i class="uil uil-youtube before:content-['\edb5'] text-[1rem] !text-[#c8312b]"></i></a>
-                    </nav>
-                    <!-- /.social -->
+                    <img class="!mb-4" src="{{ asset('images/logo-dark.png') }}" srcset="{{ asset('images/logo-dark.png') }}   3x" alt="image">
                 </div>
                 <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="md:w-4/12 lg:w-2/12 xl:w-2/12 w-full flex-[0_0_auto] !px-[15px] max-w-full lg:!ml-[16.66666667%] xl:!ml-[16.66666667%] max-lg:!mt-[30px]">
                 <div class="widget">
-                    <h4 class="widget-title !text-white !mb-3">Need Help?</h4>
+                    <h4 class="widget-title !text-white !mb-3">Страницы</h4>
                     <ul class="pl-0 list-none text-inherit  !mb-0">
-                        <li><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Support</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Get Started</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Terms of Use</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Privacy Policy</a></li>
+                        <li><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">О салоне</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Акции</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Маникюр и педикюр</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Вакансии</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Политика конфиденциальности</a></li>
                     </ul>
                 </div>
                 <!-- /.widget -->
@@ -34,11 +26,13 @@
                 <div class="widget">
                     <h4 class="widget-title !text-white !mb-3">Learn More</h4>
                     <ul class="pl-0 list-none   !mb-0">
-                        <li><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">About Us</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Our Story</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Projects</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Pricing</a></li>
-                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="#">Features</a></li>
+                        <li><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Прайс</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Галерея</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Статьи</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Косметология</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">3D тур</a></li>
+                        <li class="!mt-[0.35rem]"><a class="!text-[#cacaca] hover:!text-[#fff]" href="#">Пользовательское соглашение</a></li>
+
                     </ul>
                 </div>
                 <!-- /.widget -->
@@ -46,9 +40,11 @@
             <!-- /column -->
             <div class="md:w-4/12 lg:w-2/12 xl:w-2/12 w-full flex-[0_0_auto] !px-[15px] max-w-full max-lg:!mt-[30px]">
                 <div class="widget">
-                    <h4 class="widget-title !text-white !mb-3">Get in Touch</h4>
-                    <address class=" not-italic !leading-[inherit] !mb-4">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-                    <a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="mailto:first.last@email.com">info@email.com</a><br> 00 (123) 456 78 90
+                    <h4 class="widget-title !text-white !mb-3">Наши координаты</h4>
+                    <address class=" not-italic !leading-[inherit] !mb-4">Москва, Ленинский проспект, 123</address>
+                    <a class="!text-[#cacaca] hover:!text-[#3f78e0]" href="mailto:first.last@email.com">info@asuvorova.ru</a>
+                    <br>+7 (499) 749-65-07, <br>
+                    +7 (965) 211-88-00
                 </div>
                 <!-- /.widget -->
             </div>
