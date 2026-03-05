@@ -1,0 +1,49 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-RRgaC1FQ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/fonts/Custom.woff": {
+    "file": "assets/Custom-DKOUhDFN.woff",
+    "src": "resources/fonts/Custom.woff"
+  },
+  "resources/fonts/Custom.woff2": {
+    "file": "assets/Custom-C6Ahks36.woff2",
+    "src": "resources/fonts/Custom.woff2"
+  },
+  "resources/fonts/Unicons.woff": {
+    "file": "assets/Unicons-BhE4mAtn.woff",
+    "src": "resources/fonts/Unicons.woff"
+  },
+  "resources/fonts/Unicons.woff2": {
+    "file": "assets/Unicons-LAGzIYyZ.woff2",
+    "src": "resources/fonts/Unicons.woff2"
+  },
+  "resources/images/blob.svg": {
+    "file": "assets/blob-CBrdL5BW.svg",
+    "src": "resources/images/blob.svg"
+  },
+  "resources/images/blob2.svg": {
+    "file": "assets/blob2-DCJjv9q8.svg",
+    "src": "resources/images/blob2.svg"
+  },
+  "resources/images/hex.svg": {
+    "file": "assets/hex-zacoro4P.svg",
+    "src": "resources/images/hex.svg"
+  },
+  "resources/images/lines.png": {
+    "file": "assets/lines-DKcjq507.png",
+    "src": "resources/images/lines.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CKl8NZMC.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
