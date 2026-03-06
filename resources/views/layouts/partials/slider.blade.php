@@ -4,9 +4,11 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div
-                    class="swiper-slide bg-overlay bg-overlay-400  bg-[#21262c] opacity-100  bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+                    class="swiper-slide bg-overlay bg-overlay-400 bg-[#21262c] opacity-100 bg-image !bg-cover !bg-[center_center]
+min-h-[70vh] md:min-h-[80vh] lg:min-h-[750px]
+before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
                     style="background-image: url('{{ asset('images/asuvorova.ru_1.jpg') }}');"
-                    data-image-src="{{ asset('images/asuvorova.ru_1.jpg') }}">
+                >
                     <div class="container !h-full">
                         <div class="flex flex-wrap mx-[-15px] !h-full">
                             <div

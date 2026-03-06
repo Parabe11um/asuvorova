@@ -17,10 +17,37 @@
 
 
 
-@media (min-width: 992px) {
+/* Fix Sandbox offcanvas only for mobile */
+@media (max-width: 991.98px) {
 
-    .navbar-expand-lg .offcanvas-nav {
-        width: auto !important;
+    .navbar:not(.navbar-clone) .offcanvas-start {
+        --tw-translate-x: -100%;
+        transform: translateX(var(--tw-translate-x));
+        transition: transform .3s ease-in-out !important;
     }
 
+    .navbar:not(.navbar-clone) .offcanvas-start.show,
+    .navbar:not(.navbar-clone) .offcanvas-start.showing {
+        --tw-translate-x: 0px;
+        transform: translateX(var(--tw-translate-x));
+        transition: transform .3s ease-in-out;
+    }
+
+}
+
+
+.swiper-hero,
+.swiper-hero .swiper,
+.swiper-hero .swiper-wrapper,
+.swiper-hero .swiper-slide {
+    height: 85vh;
+}
+
+@media (min-width: 992px) {
+    .swiper-hero,
+    .swiper-hero .swiper,
+    .swiper-hero .swiper-wrapper,
+    .swiper-hero .swiper-slide {
+        height: 50vh!important;
+    }
 }
