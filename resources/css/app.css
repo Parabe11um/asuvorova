@@ -36,13 +36,6 @@
 }
 
 
-.swiper-hero,
-.swiper-hero .swiper,
-.swiper-hero .swiper-wrapper,
-.swiper-hero .swiper-slide {
-    height: 85vh;
-}
-
 @media (min-width: 992px) {
     .swiper-hero,
     .swiper-hero .swiper,
