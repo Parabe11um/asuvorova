@@ -1,10 +1,19 @@
 <header class="relative wrapper !bg-[#edf2fc]">
     <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
         <div class="container flex items-center justify-between">
-            <div class="navbar-brand"><a href="/"> <img class="logo-dark" src="{{ asset('images/logo.png') }}"
-                                                        srcset="{{ asset('images/logo.png') }}" alt="image"> <img
-                        class="logo-light" src="{{ asset('images/logo-dark.png') }}" srcset="{{ asset('images/logo-dark.png') }}"
-                        alt="image"> </a></div>
+            <div class="navbar-brand">
+                <img
+                    class="logo-dark h-[48px] w-auto"
+                    src="{{ asset('images/logo.png') }}"
+                    alt="Салон Анжелики Суворовой"
+                >
+
+                <img
+                    class="logo-light h-[48px] w-auto"
+                    src="{{ asset('images/logo-dark.png') }}"
+                    alt="Салон Анжелики Суворовой"
+                >
+            </div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                 <div class="offcanvas-header xl:!hidden lg:!hidden flex items-center justify-between flex-row p-6"><h3
                         class="!text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">Салон Анжелики Суворовой</h3>
