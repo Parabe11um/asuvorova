@@ -35,6 +35,13 @@
 
 }
 
+@media (max-width: 767px) {
+    .swiper-hero, .swiper-hero .swiper-slide {
+        height: 700px!important;
+    }
+}
+
+
 
 @media (min-width: 992px) {
     .swiper-hero,
