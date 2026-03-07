@@ -50,4 +50,9 @@
     .swiper-hero .swiper-slide {
         height: 50vh!important;
     }
+
+    .navbar-expand-lg .offcanvas-nav.offcanvas-end,
+    .navbar-expand-lg .offcanvas-nav.offcanvas-start {
+        width: auto !important;
+    }
 }
