@@ -37,7 +37,7 @@
 
 @media (max-width: 767px) {
     .swiper-hero, .swiper-hero .swiper-slide {
-        height: 700px!important;
+        height: 80vh!important;
     }
 }
 
