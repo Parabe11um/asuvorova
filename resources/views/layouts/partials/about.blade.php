@@ -9,46 +9,52 @@
                 <ul class="nav flex flex-row md:!flex-col gap-3 md:gap-4">
 
                     <li class="nav-item">
-                        <a class="nav-link
-          block text-base font-medium
-          !px-5 py-3
-          bg-white
-          border border-gray-200
-          shadow-sm
-          hover:shadow-md hover:-translate-y-0.5
-          transition-all duration-300"
+                        <a class="nav-link active
+block text-base font-medium
+!px-5 py-3
+bg-white
+border border-gray-200
+shadow-sm
+hover:shadow-md
+transition-all duration-300
+cursor-pointer"
                            data-bs-toggle="tab"
-                           href="#tab3-1">
+                           data-bs-target="#tab3-1"
+                           role="tab">
                             Парикмахерский зал
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link
-          block text-base font-medium
-          !px-5 py-3
-          bg-white
-          border border-gray-200
-          shadow-sm
-          hover:shadow-md hover:-translate-y-0.5
-          transition-all duration-300"
+block text-base font-medium
+!px-5 py-3
+bg-white
+border border-gray-200
+shadow-sm
+hover:shadow-md
+transition-all duration-300
+cursor-pointer"
                            data-bs-toggle="tab"
-                           href="#tab3-2">
+                           data-bs-target="#tab3-2"
+                           role="tab">
                             Косметология
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link
-          block text-base font-medium
-          !px-5 py-3
-          bg-white
-          border border-gray-200
-          shadow-sm
-          hover:shadow-md hover:-translate-y-0.5
-          transition-all duration-300"
+block text-base font-medium
+!px-5 py-3
+bg-white
+border border-gray-200
+shadow-sm
+hover:shadow-md
+transition-all duration-300
+cursor-pointer"
                            data-bs-toggle="tab"
-                           href="#tab3-3">
+                           data-bs-target="#tab3-3"
+                           role="tab">
                             Солярий
                         </a>
                     </li>
