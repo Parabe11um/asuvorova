@@ -1,4 +1,4 @@
-<section class="relative py-16 md:py-24 overflow-hidden">
+<section class="relative py-24 overflow-hidden">
 
     <!-- Background -->
     <div class="absolute inset-0">
@@ -9,62 +9,73 @@
     </div>
 
     <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="absolute inset-0 bg-black/50"></div>
 
-    <!-- Content -->
-    <div class="relative z-10 max-w-5xl mx-auto px-4">
+    <div class="relative z-10 max-w-6xl mx-auto px-6">
 
-        <h2 class="text-xl sm:text-2xl md:text-3xl !text-white text-center mb-10 md:mb-16">
+        <h2 class="text-2xl md:text-3xl lg:text-4xl !text-white text-center my-16 font-semibold">
             Наши цены — НЕ кусаются!
         </h2>
 
-        <div class="grid grid-cols-2 gap-4 sm:gap-6 md:gap-10 justify-center">
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-6 md:gap-12 max-w-3xl mx-auto">
 
             <!-- CARD -->
-            <div class="bg-white shadow-xl max-w-[220px] sm:max-w-[260px] md:max-w-[320px] mx-auto">
+            <div class="bg-white/95 backdrop-blur-sm p-8 text-center shadow-2xl transition duration-300 hover:scale-105">
 
-                <div class="border border-gray-300 p-4 sm:p-6 md:p-8 text-center">
+                <h3 class="text-lg md:text-xl font-semibold text-gray-700 mb-6">
+                    Стрижка<br>короткие волосы
+                </h3>
 
-                    <p class="text-sm sm:text-base md:text-lg font-semibold mb-4 leading-snug">
-                        Стрижка<br>короткие волосы
-                    </p>
+                <div class="space-y-3">
 
-                    <p class="text-gray-500 text-xs sm:text-sm mb-1">Стилист</p>
-                    <p class="text-red-600 text-lg sm:text-xl md:text-2xl font-semibold mb-4">
-                        2900 ₽
-                    </p>
+                    <div>
+                        <p class="text-gray-500 text-sm">Стилист</p>
+                        <p class="text-red-600 text-2xl md:text-3xl font-bold">
+                            2900 ₽
+                        </p>
+                    </div>
 
-                    <p class="text-gray-500 text-xs sm:text-sm mb-1">Топ-стилист</p>
-                    <p class="text-red-600 text-lg sm:text-xl md:text-2xl font-semibold">
-                        5500 ₽
-                    </p>
+                    <div class="pt-3 border-t border-gray-200">
+                        <p class="text-gray-500 text-sm">Топ-стилист</p>
+                        <p class="text-red-600 text-2xl md:text-3xl font-bold">
+                            5500 ₽
+                        </p>
+                    </div>
 
                 </div>
+
             </div>
 
+
             <!-- CARD -->
-            <div class="bg-white shadow-xl max-w-[220px] sm:max-w-[260px] md:max-w-[320px] mx-auto">
+            <div class="bg-white/95 backdrop-blur-sm p-8 text-center shadow-2xl transition duration-300 hover:scale-105">
 
-                <div class="border border-gray-300 p-4 sm:p-6 md:p-8 text-center">
+                <h3 class="text-lg md:text-xl font-semibold text-gray-700 mb-6">
+                    Сложное окрашивание<br>средние волосы
+                </h3>
 
-                    <p class="text-sm sm:text-base md:text-lg font-semibold mb-4 leading-snug">
-                        Сложное окрашивание<br>средние волосы
-                    </p>
+                <div class="space-y-3">
 
-                    <p class="text-gray-500 text-xs sm:text-sm mb-1">Стилист</p>
-                    <p class="text-red-600 text-lg sm:text-xl md:text-2xl font-semibold mb-4">
-                        6000 ₽
-                    </p>
+                    <div>
+                        <p class="text-gray-500 text-sm">Стилист</p>
+                        <p class="text-red-600 text-2xl md:text-3xl font-bold">
+                            6000 ₽
+                        </p>
+                    </div>
 
-                    <p class="text-gray-500 text-xs sm:text-sm mb-1">Топ-стилист</p>
-                    <p class="text-red-600 text-lg sm:text-xl md:text-2xl font-semibold">
-                        10000 ₽
-                    </p>
+                    <div class="pt-3 border-t border-gray-200">
+                        <p class="text-gray-500 text-sm">Топ-стилист</p>
+                        <p class="text-red-600 text-2xl md:text-3xl font-bold">
+                            10000 ₽
+                        </p>
+                    </div>
 
                 </div>
+
             </div>
 
         </div>
 
     </div>
+
 </section>
