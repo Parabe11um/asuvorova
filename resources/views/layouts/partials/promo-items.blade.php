@@ -21,7 +21,7 @@
                 data-items-xs="1"
             >
                 <!-- ВАЖНО: обёртка .swiper обязательна -->
-                <div class="swiper overflow-visible pb-2">
+                <div class="swiper overflow-visible pb-2 !py-6">
                     <div class="swiper-wrapper">
 
                         <!-- SLIDE 1 -->
@@ -52,20 +52,6 @@
                                                 </a>
                                             </h2>
                                         </div>
-
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex !mb-0">
-                                                <li class="post-date inline-block">
-                                                    <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
-                                                    <span>14 Apr 2022</span>
-                                                </li>
-                                                <li class="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0] before:rounded-[100%] before:align-[.15rem] before:bg-[#aab0bc]">
-                                                    <a class="!text-[#aab0bc] hover:!text-[#7cb798] hover:!border-[#7cb798]" href="#">
-                                                        <i class="uil uil-comment pr-[0.2rem] align-[-.05rem] before:content-['\ea54']"></i>4
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -74,7 +60,10 @@
                         <!-- SLIDE 2 -->
                         <div class="swiper-slide">
                             <article>
-                                <div class="card !rounded-none flex flex-col h-full min-h-[480px]">
+                                <div class="card !rounded-none flex flex-col h-full min-h-[480px]
+border border-gray-200
+shadow-md hover:shadow-xl
+transition-all duration-300">
                                     <figure class="card-img-top !rounded-none overlay overlay-1 group h-[260px] overflow-hidden">
                                         <a href="#" class="block h-full w-full">
                                             <img
@@ -99,15 +88,6 @@
                                                 </a>
                                             </h2>
                                         </div>
-
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex !mb-0">
-                                                <li class="post-date inline-block">
-                                                    <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
-                                                    <span>29 Mar 2022</span>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -116,7 +96,10 @@
                         <!-- SLIDE 3 -->
                         <div class="swiper-slide">
                             <article>
-                                <div class="card !rounded-none flex flex-col h-full min-h-[480px]">
+                                <div class="card !rounded-none flex flex-col h-full min-h-[480px]
+border border-gray-200
+shadow-md hover:shadow-xl
+transition-all duration-300">
                                     <figure class="card-img-top !rounded-none overlay overlay-1 group h-[260px] overflow-hidden">
                                         <a href="#" class="block h-full w-full">
                                             <img
@@ -142,19 +125,6 @@
                                             </h2>
                                         </div>
 
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex !mb-0">
-                                                <li class="post-date inline-block">
-                                                    <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
-                                                    <span>14 Apr 2022</span>
-                                                </li>
-                                                <li class="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0] before:rounded-[100%] before:align-[.15rem] before:bg-[#aab0bc]">
-                                                    <a class="!text-[#aab0bc] hover:!text-[#7cb798] hover:!border-[#7cb798]" href="#">
-                                                        <i class="uil uil-comment pr-[0.2rem] align-[-.05rem] before:content-['\ea54']"></i>4
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </article>
@@ -189,14 +159,6 @@
                                             </h2>
                                         </div>
 
-                                        <div class="post-footer mt-auto">
-                                            <ul class="!text-[0.75rem] !text-[#aab0bc] m-0 p-0 list-none flex !mb-0">
-                                                <li class="post-date inline-block">
-                                                    <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
-                                                    <span>29 Mar 2022</span>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </article>
