@@ -14,7 +14,7 @@
     <!-- Content -->
     <div class="relative z-10 max-w-5xl mx-auto px-4">
 
-        <h2 class="text-xl sm:text-2xl md:text-3xl text-white text-center mb-10 md:mb-16">
+        <h2 class="text-xl sm:text-2xl md:text-3xl !text-white text-center mb-10 md:mb-16">
             Наши цены — НЕ кусаются!
         </h2>
 

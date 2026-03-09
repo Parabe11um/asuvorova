@@ -64,19 +64,15 @@
                         <div class="text-sm leading-tight flex flex-row">
                             <div class="!flex-column content-end">
                                 <a href="tel:+74997496507"
-                                   class="flex font-semibold text-[15px] md:text-[13px] lg:text-[14px] xl:text-[15px] !text-[#cacaca] hover:!text-[#3f78e0]">
+                                   class="flex font-semibold text-[15px] md:text-[13px] lg:text-[14px] xl:text-[15px] !text-[#cacaca] hover:!text-[#fff]">
                                     +7 (499) 749-65-07
                                 </a>
 
                                 <a href="tel:+79652118800"
-                                   class="font-semibold text-[15px] md:text-[13px] lg:text-[14px] xl:text-[15px] !text-[#cacaca] hover:!text-[#3f78e0]">
+                                   class="font-semibold text-[15px] md:text-[13px] lg:text-[14px] xl:text-[15px] !text-[#cacaca] hover:!text-[#fff]">
                                     +7 (965) 211-88-00
                                 </a>
                             </div>
-                            <a href="#"
-                               class="ml-2 px-4 py-2 bg-[#fff] border-1 !text-black text-[0.85rem] font-semibold hover:bg-[#000] hover:!text-[#fff] transition whitespace-nowrap">
-                                Записаться
-                            </a>
                         </div>
                     </li>
                     <li class="nav-item ml-4"><a class="nav-link" data-bs-toggle="offcanvas"

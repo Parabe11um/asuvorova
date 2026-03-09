@@ -62,7 +62,7 @@
 
                     <div class="tab-pane fade show active" id="tab3-1">
                         <div class="space-y-6">
-                            <h3 class="text-3xl font-serif">Парикмахерский зал</h3>
+                            <h3 class="text-3xl">Парикмахерский зал</h3>
 
                             <p class="text-gray-600 leading-relaxed text-lg">
                                 Красивые стрижки, современные техники окрашивания и уход нового поколения.
@@ -77,7 +77,7 @@
 
                     <div class="tab-pane fade" id="tab3-2">
                         <div class="space-y-6">
-                            <h3 class="text-3xl font-serif">Косметология</h3>
+                            <h3 class="text-3xl">Косметология</h3>
 
                             <p class="text-gray-600 leading-relaxed text-lg">
                                 Современные процедуры и профессиональная косметика нового поколения.
@@ -91,7 +91,7 @@
 
                     <div class="tab-pane fade" id="tab3-3">
                         <div class="space-y-6">
-                            <h3 class="text-3xl font-serif">Солярий</h3>
+                            <h3 class="text-3xl">Солярий</h3>
 
                             <p class="text-gray-600 leading-relaxed text-lg">
                                 Ровный и безопасный загар с использованием современных технологий.

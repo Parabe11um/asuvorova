@@ -12,9 +12,9 @@
     <div class="absolute inset-0 bg-black/40"></div>
 
     <!-- Content -->
-    <div class="relative z-30 flex items-center justify-center h-full text-center text-white px-6">
+    <div class="relative z-30 flex items-center justify-center h-full text-center !text-white px-6">
         <div class="max-w-3xl">
-            <h2 class="text-3xl md:text-5xl font-serif leading-tight mb-8">
+            <h2 class="text-3xl md:text-5xl !text-white leading-tight mb-8">
                 Ваш модный LOOK —<br>
                 вместе с нами!
             </h2>

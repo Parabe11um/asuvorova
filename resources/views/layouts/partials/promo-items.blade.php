@@ -14,8 +14,8 @@
             <div
                 class="swiper-container nav-bottom nav-color !mb-[4.5rem] relative z-10 swiper-container-4"
                 data-margin="30"
-                data-dots="false"
-                data-nav="true"
+                data-dots="true"
+                data-nav="false"
                 data-items-lg="3"
                 data-items-md="2"
                 data-items-xs="1"
